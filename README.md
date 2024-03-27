@@ -1,6 +1,6 @@
 # RCBEVDet
 
-This is the official implementation of CVPR2024 paper: **RCBEVDet: Radar-camera Fusion in Bird’s Eye View for 3D Object Detection**.
+This is the official implementation of CVPR2024 paper: [**RCBEVDet: Radar-camera Fusion in Bird’s Eye View for 3D Object Detection**](https://arxiv.org/abs/2403.16440).
 
 
 
