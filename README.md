@@ -2,7 +2,15 @@
 
 This is the official implementation of CVPR2024 paper: [**RCBEVDet: Radar-camera Fusion in Bird’s Eye View for 3D Object Detection**](https://arxiv.org/abs/2403.16440) and its extended version RCBEVDet++.
 
+**Note: please sign the [application](https://github.com/VDIGPKU/RCBEVDet/blob/main/RCBEVDet%20Application.docx) to obtain the code** **of RCBEVDet.**
 
+
+
+## Introduction
+
+We present RCBEVDet, a radar-camera fusion 3D object detection method in the bird's eye view (BEV). Specifically, we first design RadarBEVNet for radar BEV feature extraction. RadarBEVNet consists of a dual-stream radar backbone and a Radar Cross-Section (RCS) aware BEV encoder. In the dual-stream radar backbone, a point-based encoder and a transformer-based encoder are proposed to extract radar features, with an injection and extraction module to facilitate communication between the two encoders. The RCS-aware BEV encoder takes RCS as the object size prior to scattering the point feature in BEV. Besides, we present the Cross-Attention Multi-layer Fusion module to automatically align the multi-modal BEV feature from radar and camera with the deformable attention mechanism, and then fuse the feature with channel and spatial fusion layers. Experimental results show that RCBEVDet achieves new state-of-the-art radar-camera fusion results on nuScenes and view-of-delft (VoD) 3D object detection benchmarks. Furthermore, RCBEVDet achieves better 3D detection results than all real-time camera-only and radar-camera 3D object detectors with a faster inference speed at 21~28 FPS. 
+
+![RCBEVDet](RCBEVDet.JPG)
 
 ## Update
 
@@ -14,7 +22,6 @@ This is the official implementation of CVPR2024 paper: [**RCBEVDet: Radar-camera
 ## Weight & Code
 
 * Model weights for RCBEVDet are released: [google drive](https://drive.google.com/drive/folders/1VhOBcJ7wT71R8Dqyr5MlQUKv7lVcjfrz?usp=sharing)
-* Code: please sign the [application](https://github.com/VDIGPKU/RCBEVDet/blob/main/RCBEVDet%20Application.docx) to obtain the code
 
 
 
