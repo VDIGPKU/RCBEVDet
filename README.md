@@ -2,7 +2,7 @@
 
 This is the official implementation of CVPR2024 paper: [**RCBEVDet: Radar-camera Fusion in Bird’s Eye View for 3D Object Detection**](https://arxiv.org/abs/2403.16440) and its extended version RCBEVDet++.
 
-**Note: please sign the [application](https://github.com/VDIGPKU/RCBEVDet/blob/main/RCBEVDet%20Application.docx) to obtain the code** **of RCBEVDet.**
+~~**Note: please sign the [application](https://github.com/VDIGPKU/RCBEVDet/blob/main/RCBEVDet%20Application.docx) to obtain the code** **of RCBEVDet.**~~
 
 
 
@@ -15,7 +15,7 @@ We present RCBEVDet, a radar-camera fusion 3D object detection method in the bir
 ## Update
 
 * 2024/06/28 - RCBEVDet++ achieves SOTA 3D object detection, BEV semantic segmentation, and 3D multi-object tracking results on nuScenes benchmark. **The paper and code for RCBEVDet++ is coming soon~**
-* 2024/06/01 - Code for RCBEVDet is released.
+* 2024/06/01 - Code for RCBEVDet is released in the zip file.
 
 
 
@@ -70,3 +70,4 @@ The overall code are based on [mmdetection3D](https://github.com/open-mmlab/mmde
 ## License
 
 The project is only free for academic research purposes, but needs authorization for commerce. For commerce permission, please contact wyt@pku.edu.cn.
+
